@@ -42,6 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\Characters\Character.cs" />
+    <Compile Include="Modules\Characters\ICharacter.cs" />
+    <Compile Include="Modules\Characters\Enemy.cs" />
+    <Compile Include="Modules\Characters\EnemyFactory.cs" />
+    <Compile Include="Modules\Characters\Hero.cs" />
+    <Compile Include="Modules\Characters\IEnemyFactory.cs" />
+    <Compile Include="Modules\Inventory\IItem.cs" />
+    <Compile Include="Modules\Inventory\IPotion.cs" />
+    <Compile Include="Modules\Inventory\IProtection.cs" />
+    <Compile Include="Modules\Inventory\IWeapon.cs" />
+    <Compile Include="Modules\Movement\IMove.cs" />
+    <Compile Include="Modules\Movement\Move.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
